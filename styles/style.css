@@ -71,6 +71,29 @@ nav li a{
     width: 100%;
 }
 /* ---------/header--------- */
+
+/* ---------main--------- */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.teams-title{
+    color:  #727272;
+    font-family: Work Sans;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 500;
+}
+.of-our{
+    color: #131313;
+    font-weight: 700;
+}
+.text-primary{
+    color: #FF900E;
+    font-weight: 700;
+}
+/* ---------/main--------- */
+
 /* ---------media screen for mobile--------- */
 @media screen and (max-width: 576px) {
     header{
