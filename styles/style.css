@@ -17,7 +17,7 @@
     font-weight: 600;
     border: none;
     padding: 1.2rem 1.5rem;
-    margin: 3rem 0;
+    cursor: pointer;
 }
 /* ---------header--------- */
 header{
@@ -66,4 +66,27 @@ nav li a{
     text-align: center;
     margin: 0 auto;
 }
+.banner img{
+    margin-top: 1.2rem;
+    width: 100%;
+}
 /* ---------/header--------- */
+/* ---------media screen for mobile--------- */
+@media screen and (max-width: 576px) {
+    header{
+        padding: 1rem;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+
+/* ---------media screen for tablet--------- */
+@media screen and (min-width: 577px) and (max-width: 960px) {
+    header{
+        padding: 2rem;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
