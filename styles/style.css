@@ -186,6 +186,32 @@ main{
 footer{
     margin: 4rem 0;
 }
+/* --------feature---------- */
+.features{
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 0;
+}
+.box-f{
+    width: 5px;
+    height: 106px;
+    background: #FF900E;
+    margin-right: 5px;
+}
+.section-title{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    display: flex;
+}
+.section-description{
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.feature-content{
+    margin-right: 5rem;
+}
 /* ---------media screen for mobile--------- */
 @media screen and (max-width: 576px) {
     header{
