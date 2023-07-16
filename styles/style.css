@@ -84,6 +84,14 @@ main{
     font-style: normal;
     font-weight: 500;
 }
+.tems-description{
+    color: #727272;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 1rem 0;
+}
 .of-our{
     color: #131313;
     font-weight: 700;
@@ -91,6 +99,19 @@ main{
 .text-primary{
     color: #FF900E;
     font-weight: 700;
+}
+.teams-container{
+    display: flex;
+    align-items: center;
+    margin: 2rem 0rem;
+}
+.teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.teams-content{
+    padding: 0px 70px;
 }
 /* ---------/main--------- */
 
@@ -102,6 +123,16 @@ main{
     nav{
         flex-direction: column;
     }
+    .teams-container{
+        flex-direction: column-reverse;
+        margin: 1rem 0rem;
+        text-align: center;
+    }
+    .teams-img-container{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+        margin: 1rem 0;
+    }
 }
 
 /* ---------media screen for tablet--------- */
@@ -111,5 +142,15 @@ main{
     }
     nav{
         flex-direction: column;
+    }
+    .teams-container{
+        flex-direction: column-reverse;
+        margin: 1rem 0rem;
+        text-align: center;
+    }
+    .teams-img-container{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        margin: 1rem 0;
     }
 }
