@@ -235,22 +235,22 @@ footer{
     background: #FF900E;
     color: white;
     width: 342px;
-    height: 200px;
+    height: 150px;
     text-align: center;
     align-items: center;
-    padding: 2rem;
-    z-index: 5;
-    margin-top: -100px;
+    position: relative;
+    padding: 1rem;
+    top: -10%;
 }
-.feature-img img{
+/* .feature-img img{
     z-index: 2;
     width: 90%;
-}
+} */
 .btn-title{
     color: #FFF;
-text-align: center;
-font-size: 65px;
-font-weight: 700;
+    text-align: center;
+    font-size: 65px;
+    font-weight: 700;
 }
 /* ---------media screen for mobile--------- */
 @media screen and (max-width: 576px) {
@@ -299,6 +299,19 @@ font-weight: 700;
     .section-title{
         text-align: center;
     }
+    .button-card{
+    width: 100%;
+    height: 180px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    padding: 1rem;
+    top: -8%;
+    margin: 0 auto;
+    }
+    .feature-img img{
+        width: 100%;
+    }
 }
 
 /* ---------media screen for tablet--------- */
@@ -328,5 +341,10 @@ font-weight: 700;
         gap: 1.3rem;
         text-align: center;
         margin: 2rem;
+    }
+    .features{
+        flex-direction: column-reverse;
+        margin: 1rem ;
+        text-align: center;
     }
 }
